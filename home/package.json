@@ -1,0 +1,12 @@
+{
+  "name": "personal-blog-project",
+  "version": "1.0.0",
+  "description": "Personal Blog Website project for Udacity",
+  "scripts": {
+    "start": "live-server --port=3000 src"
+  },
+  "author": "Udacity",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  }
+}

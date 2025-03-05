@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Blog Section */
+.blogs {
+    width: 65%;
+}
+
+.blog-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+}
+
+.blog-card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Social Media Section */
+.social-media {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 15px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin: 10px 0;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}

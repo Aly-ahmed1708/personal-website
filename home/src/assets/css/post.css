@@ -1,0 +1,133 @@
+/* Import Other CSS Files */
+@import url('style.css');
+@import url('home.css');
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background: #f4f7fc;
+    color: #333;
+    line-height: 1.8;
+    padding-top: 70px; /* Prevents content from hiding behind fixed navbar */
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Author Section */
+.author {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #2a5298;
+}
+
+.author-info h3 {
+    font-size: 18px;
+    color: #1e3c72;
+    font-weight: 600;
+}
+
+.author-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Blog Content */
+.blog-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Social Media Links */
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.social-media .facebook { background: #1877F2; }
+.social-media .twitter { background: #1DA1F2; }
+.social-media .linkedin { background: #0077B5; }
+
+.social-media a:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1e3c72;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .author {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .author img {
+        margin-bottom: 10px;
+    }
+
+    .blog-content {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,72 @@
+/* Dark Theme */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.blog-post h2 {
+    color: #bb86fc;
+}
+
+.calculator {
+    background-color: #222;
+    border-color: #bb86fc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.calculator input {
+    background-color: #333;
+    color: white;
+    border: 2px solid #bb86fc;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    width: 100%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.buttons button {
+    background-color: #333;
+    color: white;
+    border: 2px solid #bb86fc;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 60px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+    background-color: #bb86fc;
+    color: #121212;
+    transform: scale(1.1);
+}

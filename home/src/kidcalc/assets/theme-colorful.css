@@ -1,0 +1,72 @@
+/* Colorful Theme */
+body {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header, footer {
+    background: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-container {
+    background: white;
+    color: #ff4500;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.blog-post h2 {
+    color: #ff0080;
+}
+
+.calculator {
+    background-color: #ffeb3b;
+    border-color: #ff4081;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.calculator input {
+    background-color: #fff;
+    color: #ff4500;
+    border: 2px solid #ff4081;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    width: 100%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.buttons button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 60px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+    background: #ffeb3b;
+    color: #ff4081;
+    transform: scale(1.1);
+}
